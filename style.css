@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.only {
+    width: 100%;
+    height: 125vh;
+    background-color: navajowhite;
+    background-image: url(images/20240427_180515.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    width: 80%;
+    height: 8%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    transform: translate(-100px);
+}
+.navlist {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+   
+}
+.navlist:hover {
+    color: rgb(0, 184, 230);
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transform: translate(-250px);
+}
+.dot {
+    color: rgb(0, 184, 230);
+}
+.dropdwn {
+    width: 5%;
+    height: 100%;
+    transform: translate(120px);
+}
+.dropdwn img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.dropdwn img:hover {
+    cursor: pointer;
+}
+.poly {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    clip-path: 
+    polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)
+}
+.one {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    background-image: url(images/20240320_112637.jpg);
+
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two {
+    position: absolute;
+    top: 230px;
+    right: 10px;
+    background-image:url(images/20240403_222237.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.three {
+    top: 500px;
+    right: 150px;
+    position: absolute;
+    z-index: 1;
+    background-image:url(images/20240811_204033.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.big {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 35vh;
+    right: 20%;
+    background-image: url(images/20240320_112659.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.txt {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    /* background-color: blue; */
+    top: 300px;
+    left: 210px;
+    color: white;
+    
+}
+.txt h3 {
+    font-size: 40px;
+    margin-top: 60px;
+}
+.txt h1 {
+    font-size: 70px;
+    color:  rgb(0, 184, 230)
+}
+.cty {
+    color: white ;
+}
+.line {
+    width: 15%;
+    height: 1%;
+    background-color:  rgb(0, 184, 230);
+    position: absolute;
+    top: 70vh;
+}
